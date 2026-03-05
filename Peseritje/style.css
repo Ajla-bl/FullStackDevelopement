@@ -1,0 +1,12 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face{
+    font-family: 'coder';
+    src: url(fonts/SemiCoderT.ttf);
+}
+
+h2{
+    font-family: 'coder';
+}
