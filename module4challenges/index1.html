@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+</head>
+<body>
+
+    <header id="home">
+        <h1>My Photo Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery">
+            <h2>Featured Photo</h2>
+            <picture>
+                <source srcset="large-photo.jpg" media="(min-width: 800px)">
+                <source srcset="medium-photo.jpg" media="(min-width: 450px)">
+                <img src="small-photo.jpg" alt="A beautiful landscape view" style="width:auto;">
+            </picture>
+        </section>
+
+        <hr>
+
+        <section id="bookmarks">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#home">Back to Top</a></li>
+                <li><a href="#gallery">Jump to Gallery</a></li>
+                <li><a href="#footer-info">View Credits</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="footer-info">
+        <p>&copy; 2026 My Photo Gallery Project</p>
+    </footer>
+
+</body>
+</html>

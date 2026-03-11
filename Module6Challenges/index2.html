@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Favorites</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Step 5: Customizing appearance with CSS */
+        iframe {
+            display: block;
+            margin-bottom: 20px;
+            border: 5px solid #ff0000; /* Custom red border */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Step 4: Sizing classes */
+        .video-small { width: 320px; height: 180px; }
+        .video-medium { width: 560px; height: 315px; }
+        .video-large { width: 800px; height: 450px; }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>YouTube Favorites</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Videos</h2>
+            
+            <iframe class="video-small" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Small Video"
+                allowfullscreen>
+            </iframe>
+
+            <iframe class="video-medium" 
+                src="https://www.youtube.com/embed/jfKfPfyJRdk" 
+                title="Medium Video"
+                allowfullscreen>
+            </iframe>
+
+            <iframe class="video-large" 
+                src="https://www.youtube.com/embed/9bZkp7q19f0" 
+                title="Large Video"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Recommended Channels</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/@Google" target="_blank">Google</a></li>
+                <li><a href="https://www.youtube.com/@Veritasium" target="_blank">Veritasium</a></li>
+                <li><a href="https://www.youtube.com/@NationalGeographic" target="_blank">National Geographic</a></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
