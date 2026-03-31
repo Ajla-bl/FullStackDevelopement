@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+header{
+    background: #333;
+    color:white;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 100px;
+    width: auto;
+    border-radius: 4px;
+}
+
+nav a{
+    color:white;
+    margin-left:10px;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+}
