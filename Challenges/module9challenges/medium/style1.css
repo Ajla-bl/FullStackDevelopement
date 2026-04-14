@@ -1,0 +1,24 @@
+
+pre {
+    background-color: #282c34; 
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #abb2bf; 
+    font-size: 16px;
+}
+
+
+.keyword {
+    color: #d19a66; 
+    font-weight: bold;
+}
+
+.method {
+    color: #61afef; 
+}

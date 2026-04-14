@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+.symbol-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.symbol-card p {
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+
+.symbol-card p:last-child {
+    border-bottom: none;
+}
+
+strong {
+    color: #2c3e50;
+}
