@@ -1,0 +1,42 @@
+
+.container {
+    border: 2px dashed #333;
+    height: 400px;
+    padding: 20px;
+    position: relative; 
+    background-color: #f9f9f9;
+}
+
+.box {
+    width: 150px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.static-box {
+    background-color: #34495e;
+    position: static;
+    top: 50px; 
+}
+
+
+.relative-box {
+    background-color: #e67e22;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+
+.absolute-box {
+    background-color: #e74c3c;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

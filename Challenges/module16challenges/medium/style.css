@@ -1,0 +1,28 @@
+.sprite-menu{
+    list-style:none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-image: url(sprites.png);
+    background-repeat: no-repeat;
+    border:1px solid #ddd;
+
+
+}
+
+.home{
+    background-position: 0 0;
+}
+
+.mail{
+    background-position: -50px 0;
+}
+
+.settings{
+    background-position: -100px 0;
+}

@@ -118,3 +118,34 @@ nav ul li.active{
     line-height: 26px;
 }
 
+#section-3{
+    background-color: #3c5499;
+    min-height: 820px;
+    color: white;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-row{
+    display:flex;
+
+}
+
+input[type="text"],input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"],input[type="email"], textarea{
+    font-family: "Titillium Web",sans-serif;
+    color:white;
+}
+
+
+
+
