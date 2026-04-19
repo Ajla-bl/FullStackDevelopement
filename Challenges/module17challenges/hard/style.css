@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    color: white;
+
+    
+    border-radius: 25px;
+
+    
+    border: 10px solid;
+    border-image-source: linear-gradient(45deg, #ff00cc, #3333ff);
+    border-image-slice: 1;
+
+    
+    background: radial-gradient(circle, #2c3e50, #000000);
+
+    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 
+                inset 0 0 10px rgba(255, 255, 255, 0.1);
+}

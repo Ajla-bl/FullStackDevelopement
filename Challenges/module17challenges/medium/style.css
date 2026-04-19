@@ -1,0 +1,32 @@
+
+:root {
+    --item-bg-color: #e0f7fa;
+    --number-color: #00796b;
+}
+
+
+.custom-list {
+    counter-reset: my-awesome-counter; 
+    list-style-type: none;             
+    padding: 0;
+}
+
+.custom-list li {
+    counter-increment: my-awesome-counter; 
+    background-color: var(--item-bg-color); 
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+.custom-list li::before {
+    content: counter(my-awesome-counter) ". "; 
+    color: var(--number-color);
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
