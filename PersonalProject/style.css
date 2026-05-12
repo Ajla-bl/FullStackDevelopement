@@ -1154,3 +1154,196 @@
 .map-image:hover {
     transform: scale(1.02);
 }
+
+
+@media (max-width: 992px) {
+
+    .hero,
+    .english-header,
+    .teacher-profile,
+    .contact-container,
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1,
+    .english-header h1 {
+        font-size: 42px;
+    }
+
+    .hero-img,
+    .english-header img,
+    .about-image,
+    .map-image {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .learn-grid,
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-container,
+    .review-container,
+    .mini-review-container,
+    .teacher-grid,
+    .why-grid,
+    .why-courses-grid,
+    .steps-container {
+        gap: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .right-section {
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .search-box input {
+        width: 220px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero-text h1,
+    .english-header h1,
+    .about-hero h1,
+    .contact-header h1 {
+        font-size: 34px;
+    }
+
+    .hero-text p,
+    .english-header p,
+    .about-hero p,
+    .contact-header p {
+        font-size: 16px;
+    }
+
+    .courses h1,
+    .reviews h1,
+    .steps h1,
+    .why-section h2,
+    .learn-section h2,
+    .faq h2,
+    .teacher-section h2,
+    .progress-section h2,
+    .certificate h2,
+    .mini-reviews h2,
+    .about-values h2,
+    .teachers h2,
+    .why-courses h1 {
+        font-size: 28px;
+    }
+
+    .learn-grid,
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-box,
+    .card,
+    .review,
+    .mini-review,
+    .why-box,
+    .why-course-box,
+    .teacher-card,
+    .detail-box,
+    .step-box,
+    .about-box,
+    .info-box,
+    .contact-form {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .course-search input {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .teacher-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .teacher-profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .progress-box {
+        width: 100%;
+    }
+
+    .course-stats,
+    .stats {
+        gap: 20px;
+    }
+
+    .footer {
+        padding: 25px 15px;
+    }
+
+    .socials img {
+        width: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .hero-text h1,
+    .english-header h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p,
+    .english-header p {
+        font-size: 15px;
+    }
+
+    .hero-btn,
+    .enroll-btn,
+    .back-btn,
+    .btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .course-stats h1,
+    .stats h2 {
+        font-size: 28px;
+    }
+
+    .overlay h1 {
+        font-size: 24px;
+    }
+
+    .overlay p {
+        font-size: 14px;
+    }
+}
